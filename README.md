@@ -1,6 +1,8 @@
 # pokedex-react
 
 
+
+
 //// BACKGROUND //////
 
   background-image: url("https://backgroundcheckall.com/wp-content/uploads/2017/12/blue-soft-background-10.jpg");
@@ -24,6 +26,10 @@ background-size: 400% 400%;
   }
 }
 
+
+/// LOGO ///
+
+"https://images.wikidexcdn.net/mwuploads/esssbwiki/7/77/latest/20111028181540/TituloUniversoPok%C3%A9mon.png"
 
 
 ///// CONTAINER ANIMATION /////

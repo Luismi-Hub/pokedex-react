@@ -61,22 +61,6 @@ background-size: 400% 400%;
 }
 
 
-
-////// CONTAINER TEXT //////
-
-
-  animation-name: texto;
-  animation-duration: 3s;
-  animation-delay: -2s;
-
-@keyframes texto {
-  0%,
-  100% {
-    opacity: 0;
-  }
-}
-
-
 ///// CONTAINER PHOTO ///////
 
 

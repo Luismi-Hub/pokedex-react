@@ -97,6 +97,11 @@ background-size: 400% 400%;
 /////POKEBALL ANIMATION/////
 
 
+POKEPHOTO
+
+"https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Pokebola-pokeball-png-0.png/601px-Pokebola-pokeball-png-0.png"
+
+
 animation: shake 3s;
  animation-iteration-count: infinite;
 

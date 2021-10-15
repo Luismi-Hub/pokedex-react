@@ -10,6 +10,7 @@
 //// BACKGROUND CONTAINER//////
 
 
+width:500px;
 background: linear-gradient(-45deg, #deadff, #4d3ce7, #23a6d5, #23d5ab);
 animation: gradient 10s ease infinite;
 background-size: 400% 400%;

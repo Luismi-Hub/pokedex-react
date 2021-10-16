@@ -1,4 +1,4 @@
-                                   //////  LINK TO LIVE APPLICATION ---->>>   https://luismi-hub.github.io/pokemons    <<<<<-----
+//////  LINK TO LIVE APPLICATION ---->>>   https://luismi-hub.github.io/pokemons    <<<<<-----
 
 
 

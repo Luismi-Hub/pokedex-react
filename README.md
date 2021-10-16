@@ -1,70 +1,41 @@
-# Getting Started with Create React App
+                                   //////  LINK TO LIVE APPLICATION ---->>>   https://luismi-hub.github.io/pokemons    <<<<<-----
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
 
-In the project directory, you can run:
+//// BACKGROUND //////
 
-### `npm start`
+background-image: url("https://backgroundcheckall.com/wp-content/uploads/2017/12/blue-soft-background-10.jpg");
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+//// BACKGROUND CONTAINER//////
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+width:500px; background: linear-gradient(-45deg, #deadff, #4d3ce7, #23a6d5, #23d5ab); animation: gradient 10s ease infinite; background-size: 400% 400%;
 
-### `npm test`
+@keyframes gradient { 0% { background-position: 0% 50%; } 50% { background-position: 100% 50%; } 100% { background-position: 0% 50%; } }
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+/// LOGO ///
 
-### `npm run build`
+"https://images.wikidexcdn.net/mwuploads/esssbwiki/7/77/latest/20111028181540/TituloUniversoPok%C3%A9mon.png"
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+///// CONTAINER ANIMATION /////
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+animation-name: expand; animation-duration: 3s; animation-delay: -2s;
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+@keyframes expand { 0% { left: 10px; } 25% { right: 10px; width: 10px; height: 10px; } 50% { width: 180px; height: 140px; } 75% { width: 150px; height: 120px; } 90% { width: 430px; height: 320px; } 100% { width: 400px; height: 300px; } }
 
-### `npm run eject`
+///// CONTAINER PHOTO ///////
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+animation-name: photo; animation-duration: 3.5s; animation-delay: -2s;
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+@keyframes photo { 0% { height: 20px; } 25% { height: 20px; } 50% { height: 80px; } 75% { height: 130px; } 100% { height: 120px; } }
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+/////POKEBALL ANIMATION/////
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+POKEPHOTO
 
-## Learn More
+"https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Pokebola-pokeball-png-0.png/601px-Pokebola-pokeball-png-0.png"
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+animation: shake 3s; animation-iteration-count: infinite;
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+@keyframes shake { 0% { transform: translate(1px, 1px) rotate(0deg); } 10% { transform: translate(-1px, -2px) rotate(-1deg); } /* 20% { transform: translate(-3px, 0px) rotate(1deg); } / 30% { transform: translate(3px, 2px) rotate(0deg); } 40% { transform: translate(1px, -1px) rotate(1deg); } / 50% { transform: translate(-1px, 2px) rotate(-1deg); } / 60% { transform: translate(-3px, 1px) rotate(0deg); } 70% { transform: translate(3px, 1px) rotate(-1deg); } / 80% { transform: translate(-1px, -1px) rotate(1deg); } */ 90% { transform: translate(1px, 2px) rotate(0deg); } 100% { transform: translate(1px, -2px) rotate(-1deg); } }
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
